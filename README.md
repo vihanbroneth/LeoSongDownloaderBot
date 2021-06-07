@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://telegra.ph/file/7e3b9b953faa762894532.jpg"></p>
 
-Reach me on Telegram [Song Bot 🎵](https://t.me/leosongdownloaderbot)
+Reach me on Telegram [Leo Song Downloader Bot 🎵](https://t.me/leosongdownloaderbot)
 
 ## Features
 
