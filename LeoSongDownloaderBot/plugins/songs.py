@@ -6,7 +6,7 @@ import requests
 import aiohttp
 import youtube_dl
 from pytube import YouTube
-from JESongBot import Jebot as app
+from LeoSongDownloaderBot import LeoSongDownloaderBot as app
 from pyrogram import filters, Client
 from youtube_search import YoutubeSearch
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, InputTextMessageContent
@@ -44,7 +44,7 @@ def song(client, message):
         yt = YouTube(link)
     except Exception as e:
         m.edit(
-            "❌ Found Nothing.\n\nTry another keywork or maybe spell it properly."
+            "❌ Nothing Found.\n\nTry another keyword or maybe spell it properly."
         )
         print(str(e))
         return
