@@ -2,11 +2,11 @@
 # @naviya2 🇱🇰
 
 from pyrogram.types.bots_and_keyboards import reply_keyboard_markup
-from JESongBot.plugins import *
+from LeoSongDownloaderBot.plugins import *
 from pyrogram import idle, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-from JESongBot import Jebot as app
-from JESongBot import LOGGER
+from LeoSongDownloaderBot import LeoSongDownloaderBot as app
+from LeoSongDownloaderBot import LOGGER
 
 pm_start_text = """
 Hello [{}](tg://user?id={}), I'm Leo Song Downloader Bot 🇱🇰
