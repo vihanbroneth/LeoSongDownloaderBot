@@ -1,4 +1,4 @@
-# Infinity BOTs <https://t.me/Infinity_BOTs>
+# Leo Projects <https://t.me/leosupportx>
 
 from os.path import dirname, basename, isfile, join
 import glob
