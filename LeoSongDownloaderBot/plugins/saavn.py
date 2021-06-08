@@ -1,5 +1,5 @@
-# Infinity BOTs <https://t.me/Infinity_BOTs>
-# @ImJanindu
+# Leo Peojects <https://t.me/leosupportx>
+# @Naviya2
 
 import os
 
@@ -7,7 +7,7 @@ import requests
 import wget
 from pyrogram import filters
 
-from JESongBot import Jebot
+from LeoSongDownloaderBot import LeoSongDownloaderBot
 
 def get_arg(message):
     msg = message.text
@@ -18,15 +18,15 @@ def get_arg(message):
     return " ".join(split[1:])
 
 
-@Jebot.on_message(filters.command("saavn"))
+@LeoSongDownloaderBot.on_message(filters.command("saavn"))
 async def song(client, message):
     message.chat.id
     message.from_user["id"]
     args = get_arg(message) + " " + "song"
     if args.startswith(" "):
-        await message.reply("<b>What is the song you want?</b>")
+        await message.reply("<b>Just send your song name with /song command</b>")
         return ""
-    m = await message.reply_text("Downloading...")
+    m = await message.reply_text("Now I am Downloading Your Song🙂\nPlease Wait...\n\nLeo Projects 🇱🇰")
     try:
         r = requests.get(
             f"https://jevcplayerbot-saavndl.herokuapp.com/result/?query={args}"
