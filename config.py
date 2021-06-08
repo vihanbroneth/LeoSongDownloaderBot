@@ -1,4 +1,4 @@
-# Infinity BOTs <https://t.me/Infinity_BOTs>
+# Leo Projects <https://t.me/leosupportx>
 
 import os
 API_ID = int(os.getenv("API_ID"))
