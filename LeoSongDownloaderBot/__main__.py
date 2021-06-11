@@ -22,13 +22,12 @@ Leo Projects 🇱🇰
 help_text = """
 You should know the following commands to use this bot 🙂
 
-- /song <song name>: Download songs from Youtube 🙂
-- /saavn <song name>: Download songs from JioSaavn 🙂
-- /deezer <song name>: Download songs from Deezer 🙂
+- /song <song name>: Download songs from all sources 😏
 - Send youtube url to me directly i can download it to your telegram database in audio format 🙂
 
 Made By : @naviya2 🇱🇰
 Support Group : @leosuppportx 🇱🇰
+Updates Channel : @new_ehi 🇱🇰
 """
 
 @app.on_message(filters.command("start"))
@@ -40,17 +39,23 @@ async def start(client, message):
         btn = InlineKeyboardMarkup(
             [
                 [
+                  
                     InlineKeyboardButton(
-                        text="Channel", url="https://t.me/new_ehi"
+                        text="Updates Channel🗣", url="https://t.me/new_ehi"
                     ),
                     InlineKeyboardButton(
-                        text="Developer", url="https://t.me/naviya2"
+                        text="Support Group👥", url="https://t.me/leosupportx"
+               ]
+                    
+               [
+                    InlineKeyboardButton(
+                        text="Developer🧑‍💻", url="https://t.me/naviya2"
                     ),
                     InlineKeyboardButton(
-                        text="Group", url="https://t.me/leosupportx"
-                    ),
+                        text="Rate us ★", url="https://t.me/tlgrmcbot?start=leosongdownloaderbot-review"
                 
-                ]
+                
+               ]
 
             ]
         )
