@@ -9,7 +9,9 @@ from LeoSongDownloaderBot import LeoSongDownloaderBot as app
 from LeoSongDownloaderBot import LOGGER
 
 pm_start_text = """
-Hello there , I'm Leo Song Downloader Bot 🇱🇰
+Hello [{}](tg://user?id={}) 
+
+I'm Leo Song Downloader Bot 🇱🇰
 
 You can download any song within a shortime with this Bot 🙂
 
@@ -40,7 +42,6 @@ async def start(client, message):
             [
                 [
                     [
-                    
                         InlineKeyboardButton(
                             text="Updates Channel🗣", url="https://t.me/new_ehi"
                         ),
@@ -50,7 +51,6 @@ async def start(client, message):
                     ],
                     
                     [
-                    
                         InlineKeyboardButton(
                             text="Developer🧑‍💻", url="https://t.me/naviya2"
                         ),
