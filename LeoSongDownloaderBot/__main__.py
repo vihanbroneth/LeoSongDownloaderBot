@@ -46,7 +46,8 @@ async def start(client, message):
                         ),
                         InlineKeyboardButton(
                             text="Support Group👥", url="https://t.me/leosupportx"
-                    ]
+                        ),
+                    ],
                     
                     [
                     
@@ -55,11 +56,10 @@ async def start(client, message):
                         ),
                         InlineKeyboardButton(
                             text="Rate us ★", url="https://t.me/tlgrmcbot?start=leosongdownloaderbot-review"
-                
-                    ]
-               ]
-
-            ]
+                        ),
+                    ],
+               ],
+            ],
         )
     else:
         btn = None
