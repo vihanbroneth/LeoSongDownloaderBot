@@ -9,7 +9,7 @@ from LeoSongDownloaderBot import LeoSongDownloaderBot as app
 from LeoSongDownloaderBot import LOGGER
 
 pm_start_text = """
-Hello [{}](tg://user?id={}) 
+Hello [{}](tg://user?id={}) 👋
 
 I'm Leo Song Downloader Bot 🇱🇰
 
@@ -24,8 +24,10 @@ Leo Projects 🇱🇰
 help_text = """
 You should know the following commands to use this bot 🙂
 
-- /song <song name>: Download songs from all sources 😏
-- Send youtube url to me directly i can download it to your telegram database in audio format 🙂
+⭕️ /song <song name>: Download songs from all sources 😏
+
+⭕️ Send youtube url to me directly i can download it to your telegram database in audio format 🙂
+
 
 Made By : @naviya2 🇱🇰
 Support Group : @leosuppportx 🇱🇰
