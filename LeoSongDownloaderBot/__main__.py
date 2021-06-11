@@ -39,22 +39,24 @@ async def start(client, message):
         btn = InlineKeyboardMarkup(
             [
                 [
-                  
-                    InlineKeyboardButton(
-                        text="Updates Channel🗣", url="https://t.me/new_ehi"
-                    ),
-                    InlineKeyboardButton(
-                        text="Support Group👥", url="https://t.me/leosupportx"
-               ]
+                    [
                     
-               [
-                    InlineKeyboardButton(
-                        text="Developer🧑‍💻", url="https://t.me/naviya2"
-                    ),
-                    InlineKeyboardButton(
-                        text="Rate us ★", url="https://t.me/tlgrmcbot?start=leosongdownloaderbot-review"
+                        InlineKeyboardButton(
+                            text="Updates Channel🗣", url="https://t.me/new_ehi"
+                        ),
+                        InlineKeyboardButton(
+                            text="Support Group👥", url="https://t.me/leosupportx"
+                    ]
+                    
+                    [
+                    
+                        InlineKeyboardButton(
+                            text="Developer🧑‍💻", url="https://t.me/naviya2"
+                        ),
+                        InlineKeyboardButton(
+                            text="Rate us ★", url="https://t.me/tlgrmcbot?start=leosongdownloaderbot-review"
                 
-                
+                    ]
                ]
 
             ]
