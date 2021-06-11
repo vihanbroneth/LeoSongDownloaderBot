@@ -58,7 +58,7 @@ async def start(client, message):
                             text="Rate us ★", url="https://t.me/tlgrmcbot?start=leosongdownloaderbot-review"
                         ),
                     ],
-               ],
+                ],
             ],
         )
     else:
