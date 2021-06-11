@@ -55,7 +55,7 @@ async def start(client, message):
                             text="Developer🧑‍💻", url="https://t.me/naviya2"
                         ),
                         InlineKeyboardButton(
-                            text="Rate us ★", url="https://t.me/tlgrmcbot?start=leosongdownloaderbot-review"
+                            text="Rate us ★", url="https://t.me/naviya2"
                         ),
                     ],
                 ],
