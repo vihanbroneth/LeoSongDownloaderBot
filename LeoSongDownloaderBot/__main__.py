@@ -57,6 +57,12 @@ async def start(client, message):
                     ),
                     InlineKeyboardButton(
                         text="Rate us ★", url="https://t.me/tlgrmcbot?start=leosongdownloaderbot-review"
+                    ),     
+                ],
+                
+                [
+                    InlineKeyboardButton(
+                        text="➕ Add me to your group ➕", url="t.me/leosongdownloaderbot?startgroup=true
                     ),
                 ],
             ],
