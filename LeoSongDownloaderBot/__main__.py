@@ -1,5 +1,5 @@
 # Leo Projects <https://t.me/leosupportx>
-# @naviya2 🇱🇰
+# @Naviya2 🇱🇰
 
 from pyrogram.types.bots_and_keyboards import reply_keyboard_markup
 from LeoSongDownloaderBot.plugins import *
@@ -62,7 +62,7 @@ async def start(client, message):
                 
                 [
                     InlineKeyboardButton(
-                        text="➕ Add me to your group ➕", url="t.me/leosongdownloaderbot?startgroup=true
+                        text="➕ Add me to your group ➕", url="t.me/leosongdownloaderbot?startgroup=true"
                     ),
                 ],
             ],
